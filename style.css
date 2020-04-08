@@ -58,6 +58,12 @@ form {
   border-radius: 1.25rem 1.25rem 1.25rem 0;
 }
 
+@media only screen and (max-width: 530px) {
+    .form-content {
+        width: 70%;
+    }
+}
+
 input,
 select {
   padding: 16px;
